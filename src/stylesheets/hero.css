@@ -1,0 +1,53 @@
+.Hero {
+    background-image: url("../images/Stars4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding-top: 1px;
+    background-color: black;
+    transition: opacity 0.20s, height 0.20s ease-out;
+    padding: 0 0 100vh 0;
+}
+.highlight{color: var(--one);}
+.Hero h1 {
+    font-size: 25px;
+    opacity: 0;
+    text-align: center;
+    color: white; 
+    margin: auto; 
+    animation: HeroAnimation;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.Hero ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    margin:auto;
+}
+.hero-hide{
+    transition: opacity 0.45s, height 0.45s ease-out !important;
+    opacity: 0 !important; 
+    height: 0px !important;
+    padding: 0 !important;
+}
+@keyframes HeroAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@media(max-width:1000px) {
+    .Hero h1 {font-size: 22px;}
+}
