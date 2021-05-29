@@ -9,6 +9,7 @@ const Aboutme = (props) => {
   return (
 
     <section className={props.hide ? 'About-me show-about-me' : 'About-me'} id="Who-Am-I">
+        {/* Change all these divs into sectors */}
         <h2> Who Am I?</h2>
         <div className = "Who-am-I-container">
             <div className="Who-am-I-group">
@@ -23,6 +24,8 @@ const Aboutme = (props) => {
             </div>
 
         </div>
+
+
 
         <ul className="about-me-icon-group"> 
             <ul> 

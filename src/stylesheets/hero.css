@@ -12,18 +12,7 @@
     padding: 0 0 100vh 0;
 }
 .highlight{color: var(--one);}
-.Hero h1 {
-    font-size: 25px;
-    opacity: 0;
-    text-align: center;
-    color: white; 
-    margin: auto; 
-    animation: HeroAnimation;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
-}
+
 .Hero ul {
     display: flex;
     justify-content: center;
@@ -31,6 +20,43 @@
     height: 100%;
     width: fit-content;
     margin:auto;
+}
+.Hero span {
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+    /* Margin to off balance h1 margin*/
+    margin-top: 40px;
+}
+.Hero h1 {
+    font-size: 25px;
+    text-align: center;
+    color: white; 
+    margin: 0 auto 20px auto; 
+}
+.Hero h3 {
+    color: #d3d3d3;
+    font-weight: 200;
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.hero-scroll-icon {
+    color: #d3d3d3;
+    margin: 1px auto;
+    display: block;
+    width: auto;
+    font-size: 18px;
+
+    animation: IconAnimation;
+    animation-duration: 1.0s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+
+
 }
 .hero-hide{
     transition: opacity 0.45s, height 0.45s ease-out !important;
@@ -47,6 +73,12 @@
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+@keyframes IconAnimation {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(10px);}
+    100% {transform: translateY(0px);}
 }
 @media(max-width:1000px) {
     .Hero h1 {font-size: 22px;}

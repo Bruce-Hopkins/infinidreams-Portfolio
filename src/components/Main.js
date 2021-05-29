@@ -1,12 +1,12 @@
 import React, {useState, useLayoutEffect, useRef} from "react";
 
-import Hero from "./components/hero"
-import Aboutme from "./components/Aboutme"
-import Sidebar from "./components/Sidebar"
-import Skills from "./components/Skills"
-import Projects from "./components/Projects"
-import Footer from "./components/Footer"
-import MetaData from "./components/MetaData"
+import Hero from "./hero"
+import Aboutme from "./Aboutme"
+import Sidebar from "./Sidebar"
+import Skills from "./Skills"
+import Projects from "./Projects"
+import Footer from "./Footer"
+import MetaData from "./MetaData"
 
 
 function Main() {
