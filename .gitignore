@@ -72,3 +72,4 @@ yarn-error.log
 gatsby-config.js
 
 .cache/*
+package-lock.json
