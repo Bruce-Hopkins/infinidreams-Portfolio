@@ -3,6 +3,7 @@ module.exports = {
     title: `Infinidreams`,
     description: `I'm Bruce Hopkins Jr, and I'm a web developer. See my portfolio.`,
     author: `@Infinidreams`,
+    siteUrl: `http://www.infinidream.net/`,
   },
   plugins: [
     {
@@ -17,11 +18,10 @@ module.exports = {
         icon: 'src/images/icon.png'
 
       },
-    },
 
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`
   ],
 
   pathPrefix: "/",

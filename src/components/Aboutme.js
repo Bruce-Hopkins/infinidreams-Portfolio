@@ -2,7 +2,7 @@ import React from "react";
 import { IoSpeedometerOutline, IoPhonePortraitSharp} from 'react-icons/io5';
 import { HiSparkles } from "react-icons/hi";
 
-import Face from "../images/face.jpg"
+import Face from "../images/Bruce-Hopkins-Jr.jpg"
 
 const Aboutme = (props) => {
 
@@ -13,13 +13,13 @@ const Aboutme = (props) => {
         <h2> Who Am I?</h2>
         <div className = "Who-am-I-container">
             <div className="Who-am-I-group">
-                <div> <img alt="Face" className="avatar-circle" src={Face}/> </div>
+                <div> <img alt="Bruce Hopkins Jr" className="avatar-circle" src={Face}/> </div>
                 <ul>
-                    <p>I'm Bruce Hopkins Jr. I mainly create websites, but also have practiced in web scraping. I specialize in React apps, as well as WordPress development (custom themes and API integration). <br/> <br/>
+                    <p>I'm  <strong>Bruce Hopkins Jr</strong>. I mainly create websites, but also have practiced in web scraping. I specialize in <strong>React</strong> web apps, as well as <strong>WordPress</strong> development (custom themes and API integration). <br/> <br/>
 
                     I love solving new problems and discovering new technologies. I approach each problem as a learning experience. I use that experience to ensure that all of my projects are done in the best way possible, in both speed and efficiency. <br/> <br/> 
 
-                    In my free time I enjoy trying out new projects with my Raspberry Pi, creating Python scripts or playing games.</p>
+                    In my free time I enjoy trying out new projects with my <strong>Raspberry Pi</strong>, creating <strong>Python</strong> scripts or playing games.</p>
                 </ul>
             </div>
 
