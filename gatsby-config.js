@@ -24,7 +24,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://www.example.com',
+        host: 'http://www.infinidream.net/',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     }

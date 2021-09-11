@@ -15,7 +15,7 @@ const Aboutme = (props) => {
             <div className="Who-am-I-group">
                 <div> <img alt="Bruce Hopkins Jr" className="avatar-circle" src={Face}/> </div>
                 <ul>
-                    <p>I'm  <strong>Bruce Hopkins Jr</strong>. I mainly create websites, but also have practiced in web scraping. I specialize in <strong>React</strong> web apps, as well as <strong>WordPress</strong> development (custom themes and API integration). <br/> <br/>
+                    <p>I'm  <strong>Bruce Hopkins Jr</strong>. I mainly create websites, but also have practiced in web scraping. I specialize in <strong>React</strong> web apps, as well as <strong>Node.js</strong> <br/> <br/>
 
                     I love solving new problems and discovering new technologies. I approach each problem as a learning experience. I use that experience to ensure that all of my projects are done in the best way possible, in both speed and efficiency. <br/> <br/> 
 
