@@ -69,7 +69,6 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-gatsby-config.js
 
 .cache/*
 package-lock.json
